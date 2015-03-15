@@ -1,0 +1,35 @@
+﻿<wikimedia xmlns="http://www.mediawiki.org/xml/export-0.10/" >
+  <page>
+    <title>
+      Curly brackets
+    </title>
+    <revision>
+      <id>1</id>
+      <text>
+        Denne teksten {{inni her}}skal bort
+      </text>
+    </revision>
+  </page>
+  <page>
+    <title>
+      Triple apostrophe
+    </title>
+    <revision>
+      <id>2</id>
+      <text>
+        '''Trippel apostrof skal fjernes'''
+      </text>
+    </revision>
+  </page>
+  <page>
+    <title>
+      lt, gt, quot
+    </title>
+    <revision>
+      <id>3</id>
+      <text>
+        Disse &lt;&gt;&quot;skal bort
+      </text>
+    </revision>
+  </page>
+</wikimedia>

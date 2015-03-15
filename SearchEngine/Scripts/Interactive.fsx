@@ -1,4 +1,5 @@
 ﻿#load @"load-project.fsx"
 
-let parser = new XmlDataParser.WikiXmlParser()
-let docs = parser.parse
+let fn = @"C:\Users\martin\programming\faggruppe\fsharp-sok\SearchEngine\App_Data\Test.xml"
+let parser = new XmlDataParser.WikiXmlParser(fn)
+let doc = parser.parse |> Seq.exactlyOne

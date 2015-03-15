@@ -3,3 +3,4 @@
 #load @"..\Filereader\WikiDocument.fs"
       @"..\Filereader\XmlDataParser.fs"
       @"..\SearchEngine.fs"
+      @"..\Tests\XmlDataParserTests.fs"
