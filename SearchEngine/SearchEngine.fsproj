@@ -55,7 +55,7 @@
   <Import Project="$(FSharpTargetsPath)" />
   <ItemGroup>
     <Compile Include="WikiDocument.fs" />
-    <Compile Include="XmlDataParser.fs" />
+    <Compile Include="WikiXmlParser.fs" />
     <None Include="App.config" />
     <None Include="App_Data\wikipedia.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -71,7 +71,6 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
     <Compile Include="Tests\TextgroomingTests.fs" />
-    <Compile Include="Parsing\Textgrooming.fs" />
     <Compile Include="SearchEngine.fs" />
   </ItemGroup>
   <ItemGroup>
