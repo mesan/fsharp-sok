@@ -54,21 +54,25 @@
   </Choose>
   <Import Project="$(FSharpTargetsPath)" />
   <ItemGroup>
-    <Compile Include="Filereader\WikiDocument.fs" />
-    <Compile Include="Filereader\XmlDataParser.fs" />
+    <Compile Include="WikiDocument.fs" />
+    <Compile Include="XmlDataParser.fs" />
     <None Include="App.config" />
     <None Include="App_Data\wikipedia.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="App_Data\Test.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="Scripts\load-references.fsx" />
     <None Include="Scripts\load-project.fsx" />
     <None Include="Scripts\Interactive.fsx" />
     <None Include="packages.config" />
-    <Compile Include="SearchEngine.fs" />
-    <Compile Include="Tests\XmlDataParserTests.fs" />
-    <None Include="App_Data\Test.xml">
+    <Compile Include="Tests\XmlDataParserTests.fs">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    </Compile>
+    <Compile Include="Tests\TextgroomingTests.fs" />
+    <Compile Include="Parsing\Textgrooming.fs" />
+    <Compile Include="SearchEngine.fs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="mscorlib" />

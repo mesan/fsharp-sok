@@ -1,35 +1,21 @@
 ﻿<wikimedia xmlns="http://www.mediawiki.org/xml/export-0.10/" >
+
   <page>
-    <title>
-      Curly brackets
-    </title>
+    <title>Bangladesh</title>
+    <ns>0</ns>
+    <id>106</id>
     <revision>
-      <id>1</id>
-      <text>
-        Denne teksten {{inni her}}skal bort
-      </text>
-    </revision>
-  </page>
-  <page>
-    <title>
-      Triple apostrophe
-    </title>
-    <revision>
-      <id>2</id>
-      <text>
-        '''Trippel apostrof skal fjernes'''
-      </text>
-    </revision>
-  </page>
-  <page>
-    <title>
-      lt, gt, quot
-    </title>
-    <revision>
-      <id>3</id>
-      <text>
-        Disse &lt;&gt;&quot;skal bort
-      </text>
+      <id>13532083</id>
+      <parentid>13429051</parentid>
+      <timestamp>2014-11-23T01:37:20Z</timestamp>
+      <contributor>
+        <username>Te og kaker</username>
+        <id>275107</id>
+      </contributor>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve"> Tekst om Bangladesh</text>
+      <sha1>9acek44202a4nkj299z7ixbez9ecy1e</sha1>
     </revision>
   </page>
 </wikimedia>
